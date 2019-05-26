@@ -1,7 +1,7 @@
 
 
 # Description
-A Rtmp and HTTP server. Host your Rtmp streaming content and see the result with the embeded client. All hosted on docker.  
+A Rtmp (nginx-rtmp) and HTTP server (nginx). Host your Rtmp streaming content and see the result with the embeded client (vgaplayer). All hosted on docker.  
 Based on https://hub.docker.com/r/tiangolo/nginx-rtmp/.
 
 # Run the server :
