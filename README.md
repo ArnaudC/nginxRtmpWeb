@@ -13,7 +13,7 @@ sudo sh dockerBuild.sh
 | Description | URL |
 | ------ | ------ |
 | rtmp server | rtmp://localhost:1935/live/test |
-| http server | http://localhost:8142/ |
+| http server | http://localhost:80/ |
 
 # How to test with OBS Studio and VLC
 * Run a container with the command above  

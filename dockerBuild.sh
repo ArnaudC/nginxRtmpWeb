@@ -6,7 +6,7 @@ docker build -t nginx_rtmp_web_server .
 # docker ps -a # last column to get the name.
 docker container stop nginx-rtmp
 docker rm nginx-rtmp
-docker run -d -p 1935:1935 -p 8142:8142 --name nginx-rtmp nginx_rtmp_web_server
+docker run -d -p 1935:1935 -p 80:80 --name nginx-rtmp nginx_rtmp_web_server
 
 # See if ports are ok. docker ps -a to see the port binding between docker and localhost
 docker ps
